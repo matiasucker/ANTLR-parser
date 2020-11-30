@@ -1,6 +1,6 @@
-### ANTLR_Parser
+## ANTLR_Parser
 #### ANother Tool for Language Recognition
-##### ANTLR is a powerful parser generator for reading, processing, executing, or translating structured text or binary files.
+#### ANTLR is a powerful parser generator for reading, processing, executing, or translating structured text or binary files.
 
 
 UniRitter
