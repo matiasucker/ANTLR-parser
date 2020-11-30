@@ -17,4 +17,4 @@ Implementação de um parser de um chat utilizando o ANTLR 4
 
 matias.ucker@gmail.com
 
-https://github.com/MatiasUcker/ANTLR_Compiler.git
+https://github.com/MatiasUcker/ANTLR_Parser.git
