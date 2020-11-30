@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ANTLR_Compiler.iml" filepath="$PROJECT_DIR$/.idea/ANTLR_Compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ANTLR_Parser.iml" filepath="$PROJECT_DIR$/.idea/ANTLR_Parser.iml" />
     </modules>
   </component>
 </project>

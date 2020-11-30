@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/matias/Compiladores/ANTLR_Compiler/venv"
+set -gx VIRTUAL_ENV "/home/matias/Compiladores/ANTLR_Parser/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
