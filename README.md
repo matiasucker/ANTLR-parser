@@ -14,6 +14,7 @@ Aluno Matias Ucker {matias.ucker@gmail.com}
 Implementação de um parser de um chat utilizando o ANTLR 4
 
 Linguagem: Python 3.8
+
 SO: Linux Ubuntu
 
 #### Para executar o programa
