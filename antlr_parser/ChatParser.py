@@ -122,6 +122,12 @@ class ChatParser ( Parser ):
             if hasattr( listener, "exitChat" ):
                 listener.exitChat(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitChat" ):
+                return visitor.visitChat(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -186,6 +192,12 @@ class ChatParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitLine" ):
                 listener.exitLine(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitLine" ):
+                return visitor.visitLine(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -270,6 +282,12 @@ class ChatParser ( Parser ):
             if hasattr( listener, "exitMessage" ):
                 listener.exitMessage(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitMessage" ):
+                return visitor.visitMessage(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -353,6 +371,12 @@ class ChatParser ( Parser ):
             if hasattr( listener, "exitName" ):
                 listener.exitName(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitName" ):
+                return visitor.visitName(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -401,6 +425,12 @@ class ChatParser ( Parser ):
             if hasattr( listener, "exitCommand" ):
                 listener.exitCommand(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitCommand" ):
+                return visitor.visitCommand(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -448,6 +478,12 @@ class ChatParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitEmoticon" ):
                 listener.exitEmoticon(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitEmoticon" ):
+                return visitor.visitEmoticon(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -526,6 +562,12 @@ class ChatParser ( Parser ):
             if hasattr( listener, "exitLink" ):
                 listener.exitLink(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitLink" ):
+                return visitor.visitLink(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -580,6 +622,12 @@ class ChatParser ( Parser ):
             if hasattr( listener, "exitColor" ):
                 listener.exitColor(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitColor" ):
+                return visitor.visitColor(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -627,6 +675,12 @@ class ChatParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitMention" ):
                 listener.exitMention(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitMention" ):
+                return visitor.visitMention(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
