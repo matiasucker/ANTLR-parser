@@ -19,7 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b223fc85-746e-4fd1-aca7-992c78dd7cd0" name="Default Changelist" comment="" />
+    <list default="true" id="b223fc85-746e-4fd1-aca7-992c78dd7cd0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr_parser/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/antlr_parser/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr_parser/output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr_parser/tmp/Chat.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr_parser/tmp/Chat.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr_parser/tmp/Chat.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr_parser/tmp/ChatLexer.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr_parser/tmp/ChatLexer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr_parser/tmp/ChatLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr_parser/tmp/ChatListener.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr_parser/tmp/ChatParser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr_parser/tmp/ChatVisitor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/ChatLexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/ChatLexer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/ChatListener.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/ChatListener.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/ChatParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/ChatParser.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +66,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/venv/lib/python3.8/site-packages" />
+      <recent name="$PROJECT_DIR$/venv/lib/python3.8/site-packages/setuptools-50.3.2.dist-info" />
       <recent name="$PROJECT_DIR$/venv/lib/python3.8/site-packages/antlr4" />
     </key>
   </component>
@@ -74,16 +91,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="572" y="301" width="518" height="332" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1606832681001">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state x="572" y="301" width="518" height="332" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/72.27.1528.873@72.27.1528.873" timestamp="1606832681001" />
-    <state x="569" y="212" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606836808929">
+    <state x="569" y="212" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606840784596">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state x="569" y="212" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1528.873@72.27.1528.873" timestamp="1606836808929" />
+    <state x="569" y="212" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1528.873@72.27.1528.873" timestamp="1606840784596" />
     <state x="630" y="101" width="511" height="491" key="FileChooserDialogImpl" timestamp="1606832994114">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
